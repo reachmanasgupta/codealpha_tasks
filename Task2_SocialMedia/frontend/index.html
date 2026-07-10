@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Connect</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Social Connect</h1>
+        <nav>
+            <span id="user-greeting"></span>
+            <a href="#" id="logout-btn">Logout</a>
+        </nav>
+    </header>
+
+    <main class="feed-container">
+        <div class="create-post">
+            <textarea id="post-content" placeholder="What's on your mind?"></textarea>
+            <button id="post-btn">Share</button>
+        </div>
+        
+        <h2>Recent Posts</h2>
+        <div id="posts-feed"></div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
